@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test Node1">
+    <classes>
+      <class name="seleniumGridWith2Nodes.Node1"/>
+    </classes>
+  </test>
+  <test name="Test Node2">
+    <classes>
+      <class name="seleniumGridWith2Nodes.Node2"/>
+    </classes>
+  </test>
+</suite>
